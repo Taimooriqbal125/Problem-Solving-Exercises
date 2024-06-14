@@ -49,3 +49,11 @@ while (oddNumbers <= 100){
     console.log(oddNumbers)
     oddNumbers+= 2
 }
+
+// Write a js program to find sum of digits of a given number using function ?
+function digits(a,b,c){
+    var results = a + b + c;
+    console.log(results);
+}
+
+digits(10 ,22,2); 
