@@ -58,4 +58,8 @@ function digits(a,b,c){
 
 digits(10 ,22,2); 
 
-// 
+// Write a js program to delete an element from an array at specified position ?
+var resut =  eleents = ["22","52","98","42","72","223"];
+eleents.splice(2,4,"88");
+console.log(resut);
+console.log("Original" ,eleents.length);
