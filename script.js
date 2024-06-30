@@ -63,3 +63,20 @@ var resut =  eleents = ["22","52","98","42","72","223"];
 eleents.splice(2,4,"88");
 console.log(resut);
 console.log("Original" ,eleents.length);
+
+// Write a js program to find maximum and minimum elements in array using function ?
+function max(a){
+if (a <= 100){
+    console.log("number is less than 100")
+}
+else if (a >= 1000){
+    console.log("number is greater than 1000")
+}
+else{
+    console.log("Error")
+}
+}
+
+max(3300);
+
+// 
