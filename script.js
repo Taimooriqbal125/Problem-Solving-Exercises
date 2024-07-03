@@ -79,10 +79,28 @@ else{
 
 max(3300);
 
-// 3. Write a JavaScript program to get the length of a JavaScript object.   
-var student = {
-name : "David Rayy",
-sclass : "VI",
-rollno : 12 };
+// 1. Write a JavaScript program to list the properties of a JavaScript object
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
+// Sample Output: name,sclass,rollno
+
+class Student{
+    constructor(name,sclass,rollno){
+this.Name = name;
+this.Sclass = sclass;
+this.Rollno = rollno;
+    }
+studentFoam(){
+    console.log(`Name : ${this.Name} Sclass : ${this.Sclass} Rollno : ${this.Rollno}`)
+}
+}
+var a = new Student("David Rayy" , "VI" , 12);
+a.studentFoam();
+
+
+
+
 
 
