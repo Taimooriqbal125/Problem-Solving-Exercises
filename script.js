@@ -100,7 +100,43 @@ var a = new Student("David Rayy" , "VI" , 12);
 a.studentFoam();
 
 
+// Q  Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books. 
+// var library = [ 
+//    {
+//        author: 'Bill Gates',
+//        title: 'The Road Ahead',
+//        readingStatus: true
+//    },
+//    {
+//        author: 'Steve Jobs',
+//        title: 'Walter Isaacson',
+//        readingStatus: true
+//    },
+//    {
+//        author: 'Suzanne Collins',
+//        title:  'Mockingjay: The Final Book of The Hunger Games', 
+//        readingStatus: false
+//    }];
 
 
+class Library {
+constructor(author , title , status){
+this.author = author;
+this.booktitle = title ;
+this.readingstatus = status;
+console.log("Library Books Data")
+}
+readingfoam(){
+console.log(`Author Name is : ${this.author}`);
+console.log(`Book Title is : ${this.booktitle}`);
+console.log(`Reading Status :  ${this.readingstatus}`);
+}
+}
 
+var a = new Library("Bill Gate" ,"Road ahead" , "True" )
+var b = new Library("Steve Jobs" ,"Walter Isaacson" , "True" )
+var c = new Library("Suzanne Collins" ,"Mockingjay: The Final Book of The Hunger Games" , "False" )
 
+a.readingfoam();
+b.readingfoam();
+c.readingfoam();
