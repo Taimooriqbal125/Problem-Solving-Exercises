@@ -167,4 +167,23 @@ var a = new Schooldata("hannan", "VI" , 123);
 a.info();
 // withrollno
 
-a.infoo();
+a.infoo(); 
+
+// Write a JS program to check whether alphabet is vowals or constant?
+var char = "a";
+switch (char) {
+  case "a":
+    console.log("Vowals");
+    break;
+  case "e":
+    console.log("Vowals");
+    break;
+  case "i":
+    console.log("Vowals");
+    break;
+  case "o":
+    console.log(Vowals);
+    break;
+  default:
+    console.log("Constant");
+}
