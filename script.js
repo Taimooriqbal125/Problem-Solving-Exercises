@@ -187,3 +187,29 @@ switch (char) {
   default:
     console.log("Constant");
 }
+
+// Write a js program to input any character and check whether it is alphabet, digit or special character.
+let input = 1 ;
+let alphabet = a;
+if(input == "string"){
+  console.log("alphabet")
+}
+// else if (input == ) 
+
+// Write a js program to input month number and print number of days in that month.
+let month = 2;
+if(month == 1,3,5,7,8,12){
+    console.log(31)
+}
+else if(month == 2,4,6,9,10,11){
+console.log(30)
+}
+else{
+    console.log("error")
+}
+
+// Write a js program to merge two array to third array.
+let a = [1,2,3,4,5];
+let b =[6,7,8,9];
+let c = a.concat[b,10,11,12]
+console.log(c)
